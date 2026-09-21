@@ -21,7 +21,7 @@ def page_number(canvas, doc):
     canvas.saveState(); canvas.setFont('Helvetica', 8); canvas.setFillColor(colors.HexColor('#637188'))
     canvas.drawString(42, 24, 'MedVision AI - Team Progress Presentation')
     canvas.drawRightString(A4[0] - 42, 24, f'Page {doc.page}'); canvas.restoreState()
-
+   
 members = [
 ('Person 1 - Frontend', '01_Member_One_Frontend', [
  ('Open first', 'Open <b>index.html</b> in a browser. Start at the Dashboard and use the left navigation.'),
