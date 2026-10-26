@@ -264,6 +264,6 @@ MedVision-AI/
 
 ## 👨‍💻 Author & Contributions
 
-**Spandan Das** — Machine Learning Engineer  
+**Sarvesh Bharat** — Computer Science and Artificial Intelligence Engineer  
 - GitHub: [@SARVESHBHARAT](https://github.com/SARVESHBHARAT)  
 - Project Repository: [https://github.com/SARVESHBHARAT/MedVision-AI](https://github.com/SARVESHBHARAT/MedVision-AI)
