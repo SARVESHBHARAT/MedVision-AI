@@ -1,7 +1,7 @@
 """
 MedVision AI — Unified Inference Engine
 Loads all 4 CNNs + DQN and exposes a single predict() interface
-Author: Spandan Das
+Author: Sarvesh Bharat
 """
 
 import sys

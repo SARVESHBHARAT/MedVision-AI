@@ -1,7 +1,7 @@
 """
 MedVision AI — FastAPI Backend
 Production-grade medical AI API
-Author: Spandan Das
+Author: Sarvesh Bharat
 """
 
 from fastapi import FastAPI, File, UploadFile, HTTPException, Query
@@ -98,7 +98,7 @@ async def root():
     return {
         "message": "MedVision AI is running!",
         "version": "1.0.0",
-        "author": "Spandan Das",
+        "author": "Sarvesh Bharat",
         "endpoints": [
             "GET  /health",
             "GET  /models",

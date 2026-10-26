@@ -1,7 +1,7 @@
 """
 MedVision AI — Chest X-Ray CNN Trainer
 ResNet50 Transfer Learning | PyTorch
-Author: Spandan Das
+Author: Sarvesh Bharat
 Classes: NORMAL / PNEUMONIA (+ COVID if present)
 Dataset: <project_root>/cnn/chest_xray/chest_xray
 """

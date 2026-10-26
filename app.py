@@ -1,7 +1,7 @@
 """
 MedVision AI — Streamlit Frontend
 Production-grade medical AI interface
-Author: Spandan Das
+Author: Sarvesh Bharat
 """
 
 import streamlit as st
