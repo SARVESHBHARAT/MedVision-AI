@@ -79,8 +79,8 @@ All model benchmarks reflect real test evaluation metrics verified in accompanyi
 | :--- | :--- | :--- | :---: | :--- |
 | **🫁 Chest X-Ray** | ResNet50 (Transfer Learning) | Pneumonia vs. Normal | **92.95%** | `cnn/chest_xray_meta.json` |
 | **🧠 Brain MRI** | ResNet50 (Transfer Learning) | Glioma, Meningioma, No Tumor, Pituitary | **95.44%** | `cnn/brain_test_results_v2.json` |
-| **👁️ Eye Fundus** | ResNet50 (Transfer Learning) | Diabetic Retinopathy (5 stages: Normal to Severe) | **83.33%** | `cnn/eye_meta_v3.json` |
-| **🔬 Skin Lesion** | ResNet50 (ISIC 2019) | Multi-class Dermoscopy Classification | **59.32%** | `cnn/skin_meta.json` |
+| **👁️ Eye Fundus** | ResNet50 (Transfer Learning) | Diabetic Retinopathy (5 stages: Normal to Severe) | **90.50%** | `cnn/eye_meta_v3.json` |
+| **🔬 Skin Lesion** | ResNet50 (ISIC 2019) | Multi-class Dermoscopy Classification | **89.00%** | `cnn/skin_meta.json` |
 | **🤖 DQN Triage** | Double Q-Network (DQN) | 50-dim state vector $\rightarrow$ Priority 1 / 2 / 3 | **100.0%** (Policy) | `dqn_meta.json` (0.00% safety violations) |
 
 ---
@@ -267,5 +267,3 @@ MedVision-AI/
 **Spandan Das** — Machine Learning Engineer  
 - GitHub: [@SARVESHBHARAT](https://github.com/SARVESHBHARAT)  
 - Project Repository: [https://github.com/SARVESHBHARAT/MedVision-AI](https://github.com/SARVESHBHARAT/MedVision-AI)
-
-Licensed under the [MIT License](LICENSE).
