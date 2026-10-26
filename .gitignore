@@ -1,0 +1,59 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Model Weights & Large Checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+*.bin
+
+# Python Virtual Environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs & Monitoring
+*.log
+*.err.log
+logs/
+
+# Frontend Dependencies & Output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.tsbuildinfo
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Raw Datasets & Large Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+cnn/chest_xray/
+cnn/brain/
+cnn/eye/
+cnn/skin/
+cnn/*_experiments/
+experiments/
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.agents/

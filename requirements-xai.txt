@@ -1,0 +1,6 @@
+# MedVision AI — optional XAI dependencies (installed 2026-09-30, .venv)
+# The core app (predictions, Grad-CAM) works without these;
+# LIME and SHAP degrade gracefully when the packages are missing.
+lime==0.2.0.1
+shap==0.52.0
+scikit-image==0.26.0
