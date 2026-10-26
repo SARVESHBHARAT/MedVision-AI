@@ -1,0 +1,62 @@
+{
+  "model": "brain_resnet50_v2.pth",
+  "task": "brain_tumor",
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "num_classes": 4,
+  "img_size": 224,
+  "dataset": "D:\\Real MedVision AI\\MedVision-AI\\cnn\\brain\\Testing",
+  "device": "cuda",
+  "accuracy": 0.9544,
+  "macro_recall": 0.9544,
+  "macro_precision": 0.9569,
+  "macro_f1": 0.9535,
+  "per_class_recall": {
+    "glioma": 0.8425,
+    "meningioma": 0.985,
+    "notumor": 0.9925,
+    "pituitary": 0.9975
+  },
+  "per_class_precision": {
+    "glioma": 0.9912,
+    "meningioma": 0.9142,
+    "notumor": 0.9297,
+    "pituitary": 0.9925
+  },
+  "per_class_f1": {
+    "glioma": 0.9108,
+    "meningioma": 0.9483,
+    "notumor": 0.9601,
+    "pituitary": 0.995
+  },
+  "confusion_matrix": [
+    [
+      337,
+      33,
+      30,
+      0
+    ],
+    [
+      3,
+      394,
+      0,
+      3
+    ],
+    [
+      0,
+      3,
+      397,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      399
+    ]
+  ]
+}

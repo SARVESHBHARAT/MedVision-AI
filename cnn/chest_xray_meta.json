@@ -1,0 +1,23 @@
+{
+  "model_type": "resnet50",
+  "task": "chest_xray_classification",
+  "class_names": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "num_classes": 2,
+  "img_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "best_val_acc": 0.875,
+  "test_acc": 0.9295,
+  "model_path": "cnn/chest_xray_resnet50.pth"
+}
